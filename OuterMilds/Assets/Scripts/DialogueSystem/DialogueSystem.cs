@@ -28,9 +28,6 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private UnityEvent OnFinish;
 
 
-   
-
-
     #region Dialogue Functions
 
     public void SetDialogueData(Dialogue d) => dialogue = d;
