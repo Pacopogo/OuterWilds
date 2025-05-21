@@ -27,6 +27,10 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private UnityEvent OnStart;
     [SerializeField] private UnityEvent OnFinish;
 
+
+   
+
+
     #region Dialogue Functions
 
     public void SetDialogueData(Dialogue d) => dialogue = d;
@@ -43,6 +47,7 @@ public class DialogueSystem : MonoBehaviour
 
 
         OnStart?.Invoke();
+
     }
 
     private void EndDialogue()
