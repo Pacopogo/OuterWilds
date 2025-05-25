@@ -733,7 +733,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 20
   m_Sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1304,7 +1304,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -2447,10 +2447,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234345458251699960, guid: 6848e20c05bc60a49a84f0c7f70004ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4560650870126411550, guid: 6848e20c05bc60a49a84f0c7f70004ad, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13912,6 +13908,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865929433}
     m_Modifications:
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3999157956142673778, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.016
@@ -13955,6 +13959,10 @@ PrefabInstance:
     - target: {fileID: 8033618650384228971, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_Name
       value: Can_trash (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: maxTimer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'
@@ -14398,6 +14406,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865929433}
     m_Modifications:
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3999157956142673778, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.975
@@ -14441,6 +14457,10 @@ PrefabInstance:
     - target: {fileID: 8033618650384228971, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_Name
       value: Can_trash (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: maxTimer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'
@@ -15373,6 +15393,10 @@ PrefabInstance:
     - target: {fileID: 8033618650384228971, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_Name
       value: Can_trash (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: maxTimer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'
@@ -20314,6 +20338,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865929433}
     m_Modifications:
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3999157956142673778, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.512
@@ -20357,6 +20389,10 @@ PrefabInstance:
     - target: {fileID: 8033618650384228971, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_Name
       value: Can_trash (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: maxTimer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'
@@ -20433,7 +20469,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2584413490230948045, guid: aa57d6d03fe77064e94885fcbb94f82c, type: 3}
       propertyPath: m_Name
-      value: bankje
+      value: Bench
       objectReference: {fileID: 0}
     - target: {fileID: 4928885136534885617, guid: aa57d6d03fe77064e94885fcbb94f82c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20570,6 +20606,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 865929433}
     m_Modifications:
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
+    - target: {fileID: 1710984934799334165, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3999157956142673778, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.07
@@ -20613,6 +20657,10 @@ PrefabInstance:
     - target: {fileID: 8033618650384228971, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: m_Name
       value: Can_trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
+      propertyPath: maxTimer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8945605556003335206, guid: 291aaf2ea2af86143a1104de8fc68b2f, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'

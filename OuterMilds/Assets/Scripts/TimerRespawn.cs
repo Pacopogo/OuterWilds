@@ -31,14 +31,14 @@ public class TimerRespawn : MonoBehaviour
             return;
 
         currentTime -= Time.fixedDeltaTime;
-        countText.text = currentTime.ToString("f0");
+        countText.text = currentTime.ToString("f1");
 
         CheckCountdown();
     }
 
     private void CheckCountdown()
     {
-        if (currentTime >= 0.9f)
+        if (currentTime > 0)
             return;
 
         int rnd = Random.Range(0, spawnPoints.Length);
