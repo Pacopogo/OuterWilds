@@ -14,7 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - name: Bear
-    text: Hey Cat, what animal is that?
+    text: Hey there human, can you help us clean up the paper trash above
+    sprite: {fileID: 21300000, guid: d02d6e51257a1d34da53afe09a8d9e60, type: 3}
+    typeSpeed: 5
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 8300000, guid: 8fee491c1d73c15409b20ee81753bfbe, type: 3}
+    typeClip: {fileID: 8300000, guid: 549e561136af7294a9333e8d3ae3686e, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Bear
+    text: We can't clean it up ourselfs because the wind keeps blowing it away
     sprite: {fileID: 21300000, guid: d02d6e51257a1d34da53afe09a8d9e60, type: 3}
     typeSpeed: 5
     textColor: {r: 1, g: 1, b: 1, a: 1}
@@ -29,9 +44,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - name: Cat
-    text: I am not sure bear, must be new around here
+    text: Click on me to go to the paper trash
     sprite: {fileID: 21300000, guid: 6130794f786e65b4eb8d4e43a699db63, type: 3}
-    typeSpeed: 4
+    typeSpeed: 5
     textColor: {r: 1, g: 1, b: 1, a: 1}
     initalClip: {fileID: 8300000, guid: 8fee491c1d73c15409b20ee81753bfbe, type: 3}
     typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
