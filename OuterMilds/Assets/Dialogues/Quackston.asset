@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b6127db89d2604e864a1f4135a9515, type: 3}
+  m_Name: Quackston
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Duck
+    text: Oh hey, could you help to clean up my pond
+    sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
+    typeSpeed: 4
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Duck
+    text: click on the bench to go to the pond
+    sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Duck
+    text: The soda cans keep slipping out of my beak
+    sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
