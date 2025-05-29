@@ -19,7 +19,7 @@ MonoBehaviour:
     typeSpeed: 5
     textColor: {r: 1, g: 1, b: 1, a: 1}
     initalClip: {fileID: 8300000, guid: 8fee491c1d73c15409b20ee81753bfbe, type: 3}
-    typeClip: {fileID: 8300000, guid: 549e561136af7294a9333e8d3ae3686e, type: 3}
+    typeClip: {fileID: 8300000, guid: 8c319c77d1826634caba32554f08442a, type: 3}
     voiceLine: {fileID: 0}
     hasEvent: 0
     OnDialogue:
@@ -34,7 +34,7 @@ MonoBehaviour:
     typeSpeed: 5
     textColor: {r: 1, g: 1, b: 1, a: 1}
     initalClip: {fileID: 8300000, guid: 8fee491c1d73c15409b20ee81753bfbe, type: 3}
-    typeClip: {fileID: 8300000, guid: 549e561136af7294a9333e8d3ae3686e, type: 3}
+    typeClip: {fileID: 8300000, guid: 8c319c77d1826634caba32554f08442a, type: 3}
     voiceLine: {fileID: 0}
     hasEvent: 0
     OnDialogue:
