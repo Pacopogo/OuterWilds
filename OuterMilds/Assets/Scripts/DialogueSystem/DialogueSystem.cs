@@ -30,7 +30,7 @@ public class DialogueSystem : MonoBehaviour
 
     #region Dialogue Functions
 
-    public void SetDialogueData(Dialogue d) => dialogue = d;
+    private void SetDialogueData(Dialogue d) => dialogue = d;
     public void StartDialogue(Dialogue d)
     {
         StopAllCoroutines();
@@ -53,7 +53,7 @@ public class DialogueSystem : MonoBehaviour
         OnFinish?.Invoke();
     }
 
-    public void SetDialogueComponents(int index)
+    private void SetDialogueComponents(int index)
     {
         if (dialogue == null)
             return;
