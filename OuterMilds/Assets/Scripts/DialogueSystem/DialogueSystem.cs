@@ -9,6 +9,7 @@ using System.Collections;
 
 public class DialogueSystem : MonoBehaviour
 {
+
     [Header("Components")]
     [SerializeField] private GameObject dialogueCanvas;
     [SerializeField] private Image characterImg;
@@ -44,7 +45,6 @@ public class DialogueSystem : MonoBehaviour
 
 
         OnStart?.Invoke();
-
     }
 
     private void EndDialogue()

@@ -10,6 +10,7 @@ public class MoveWithPath : MonoBehaviour
 
     [SerializeField] private float speed = 3f;
     [SerializeField] private bool isMoving = true;
+    [SerializeField] private bool keepMoving = true;
 
     [SerializeField] private Animator animator;
 
@@ -39,7 +40,7 @@ public class MoveWithPath : MonoBehaviour
         MovePawn();
     }
 
-    private void nextPoint()
+    private void NextPoint()
     {
         pointIndex++;
 
@@ -61,7 +62,19 @@ public class MoveWithPath : MonoBehaviour
 
         transform.Translate(direction.normalized * speed * Time.fixedDeltaTime);
 
-        if (direction.magnitude <= 0.1f)
-            nextPoint();
+        if (direction.magnitude <= 0.1f && keepMoving)
+            NextPoint();
+    }
+
+    public void MoveSpesificToPoint(int index)
+    {
+        if (index > points.Length - 1 || index < 0)
+            return;
+
+        isMoving = true;
+        keepMoving = false;
+
+        target = points[index];
+
     }
 }
