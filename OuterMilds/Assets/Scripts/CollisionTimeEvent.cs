@@ -1,12 +1,17 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 //Made by: Pablo Pacopogo
 public class CollisionTimeEvent : MonoBehaviour
 {
+    [Header("Settings")]
     [SerializeField] private string playerTag = "Player";
     [SerializeField] private float maxTimer = 3f;
-    private float current;
+    [SerializeField] private float current;
+
+    [Header("Components")]
+    [SerializeField] private Slider timeSlider;
 
     private bool isCounting;
 
@@ -31,6 +36,7 @@ public class CollisionTimeEvent : MonoBehaviour
 
     private void FixedUpdate()
     {
+        UiUpdate();
 
         if (!isCounting)
             return;
@@ -43,5 +49,20 @@ public class CollisionTimeEvent : MonoBehaviour
             isCounting = false;
             return;
         }
+    }
+
+    private void UiUpdate()
+    {
+        if (!timeSlider)
+            return;
+
+        timeSlider.gameObject.SetActive(isCounting);
+
+        if (!isCounting)
+            return;
+
+
+        timeSlider.maxValue = maxTimer;
+        timeSlider.value = current;
     }
 }
