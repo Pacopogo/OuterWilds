@@ -30,13 +30,13 @@ public class ObjectiveTracker : MonoBehaviour
 
     public void RemoveFromCurrent()
     {
+
+        current--;
+
         if (current < 0)
         {
             current = 0;
-            return;
         }
-
-        current--;
 
         UpdateDisplay();
     }
