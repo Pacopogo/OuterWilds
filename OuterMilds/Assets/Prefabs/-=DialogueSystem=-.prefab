@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28, y: 0}
-  m_SizeDelta: {x: -748.6458, y: 7.5903}
+  m_AnchoredPosition: {x: 28, y: 25.75}
+  m_SizeDelta: {x: -748.6458, y: -43.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4893251855181190380
 CanvasRenderer:
@@ -65,12 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+    quis nostrud exercitation ullamco laboris nisi ut '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
   m_sharedMaterial: {fileID: -4446911382319863986, guid: 747cef231923ad44e9c091de62c9fb66, type: 2}
@@ -97,7 +94,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.55
+  m_fontSize: 33.1
   m_fontSizeBase: 39.8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -561,7 +558,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 60
   m_TargetDisplay: 0
 --- !u!114 &1882497751805879743
 MonoBehaviour:
@@ -1248,10 +1245,10 @@ RectTransform:
   - {fileID: 7961803864663593997}
   m_Father: {fileID: 4648334588827464128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -241, y: -11}
-  m_SizeDelta: {x: 234.5682, y: 127.3104}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -774.4, y: -259.67}
+  m_SizeDelta: {x: 234.56824, y: 127.310394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1316454913448415168
 CanvasRenderer:

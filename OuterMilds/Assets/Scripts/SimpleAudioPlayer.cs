@@ -5,6 +5,11 @@ public class SimpleAudioPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource source;
 
+    private void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
     public void PlayAudioClip(AudioClip clip)
     {
         if (clip == null)

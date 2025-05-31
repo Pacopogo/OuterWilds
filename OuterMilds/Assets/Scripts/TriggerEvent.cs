@@ -9,13 +9,15 @@ public class TriggerEvent : MonoBehaviour
     [SerializeField] private UnityEvent OnEnter;
     [SerializeField] private UnityEvent OnExit;
 
+    public bool IsColiding = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.gameObject.CompareTag(triggerTag))
             return;
 
+        IsColiding = true;
         OnEnter?.Invoke();
-        Debug.Log("Enter");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -23,7 +25,8 @@ public class TriggerEvent : MonoBehaviour
         if (!collision.gameObject.CompareTag(triggerTag))
             return;
 
+        IsColiding = false;
         OnExit?.Invoke();
-        Debug.Log("Exit");
+
     }
 }

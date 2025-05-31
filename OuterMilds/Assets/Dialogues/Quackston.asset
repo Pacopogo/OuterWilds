@@ -16,25 +16,10 @@ MonoBehaviour:
   - name: Duck
     text: Oh hey, could you help to clean up my pond
     sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
-    typeSpeed: 4
-    textColor: {r: 1, g: 1, b: 1, a: 1}
-    initalClip: {fileID: 0}
-    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
-    voiceLine: {fileID: 0}
-    hasEvent: 0
-    OnDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-    EndDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: Duck
-    text: click on the bench to go to the pond
-    sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
     typeSpeed: 6
     textColor: {r: 1, g: 1, b: 1, a: 1}
     initalClip: {fileID: 0}
-    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
+    typeClip: {fileID: 8300000, guid: f655ec0ec5485f54593d93774523ee9b, type: 3}
     voiceLine: {fileID: 0}
     hasEvent: 0
     OnDialogue:
@@ -49,7 +34,22 @@ MonoBehaviour:
     typeSpeed: 6
     textColor: {r: 1, g: 1, b: 1, a: 1}
     initalClip: {fileID: 0}
-    typeClip: {fileID: 8300000, guid: 96b7df0a656b132469d7009506b19239, type: 3}
+    typeClip: {fileID: 8300000, guid: f655ec0ec5485f54593d93774523ee9b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Duck
+    text: click on the bench to go to the pond
+    sprite: {fileID: -6524517629087480824, guid: 3e87498f82537fd42a86fb91cc79142a, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f655ec0ec5485f54593d93774523ee9b, type: 3}
     voiceLine: {fileID: 0}
     hasEvent: 0
     OnDialogue:
