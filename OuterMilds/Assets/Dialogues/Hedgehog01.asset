@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - name: Edgar
-    text: oh- hello, I my friend has its head stuck further up ahead
+    text: oh- hello, my hedgehog friend has its head stuck further up ahead
     sprite: {fileID: 21300000, guid: a28cf00c584920c4f8f54ce3c4b61c66, type: 3}
     typeSpeed: 8
     textColor: {r: 1, g: 1, b: 1, a: 1}
