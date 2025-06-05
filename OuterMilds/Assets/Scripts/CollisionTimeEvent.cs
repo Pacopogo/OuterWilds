@@ -9,13 +9,19 @@ public class CollisionTimeEvent : MonoBehaviour
     [SerializeField] private string playerTag = "Player";
     [SerializeField] private float maxTimer = 3f;
     [SerializeField] private float current;
+    private float oldTime;
 
     [Header("Components")]
     [SerializeField] private Slider timeSlider;
 
-    private bool isCounting;
+    private bool isCounting = false;
 
     [SerializeField] private UnityEvent OnFinish;
+
+    private void Start()
+    {
+        current = maxTimer;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,7 +29,6 @@ public class CollisionTimeEvent : MonoBehaviour
             return;
 
         isCounting = true;
-        current = maxTimer;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -36,19 +41,27 @@ public class CollisionTimeEvent : MonoBehaviour
 
     private void FixedUpdate()
     {
-        UiUpdate();
+        oldTime = current;
 
-        if (!isCounting)
-            return;
-
-        current -= Time.fixedDeltaTime;
-
-        if (current < 0)
+        if (isCounting)
         {
-            OnFinish?.Invoke();
-            isCounting = false;
-            return;
+            current -= Time.fixedDeltaTime;
+
+            if (current < 0)
+            {
+                OnFinish?.Invoke();
+                isCounting = false;
+                return;
+            }
         }
+        else
+        {
+            if (current < maxTimer)
+                current += Time.fixedDeltaTime;
+
+        }
+
+        UiUpdate();
     }
 
     private void UiUpdate()
@@ -56,10 +69,14 @@ public class CollisionTimeEvent : MonoBehaviour
         if (!timeSlider)
             return;
 
-        timeSlider.gameObject.SetActive(isCounting);
 
-        if (!isCounting)
+        if (current == oldTime)
+        {
+            timeSlider.gameObject.SetActive(false);
             return;
+        }
+
+        timeSlider.gameObject.SetActive(true);
 
 
         timeSlider.maxValue = maxTimer;
