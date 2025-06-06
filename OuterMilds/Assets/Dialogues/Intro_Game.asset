@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b6127db89d2604e864a1f4135a9515, type: 3}
+  m_Name: Intro_Game
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Friend
+    text: Hey, I have lately felt a disconnect with nature
+    sprite: {fileID: 0}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Friend
+    text: Do you have any tips on what to do?
+    sprite: {fileID: 0}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Friend
+    text: You are usually good with these things
+    sprite: {fileID: 0}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: You
+    text: I am not sure
+    sprite: {fileID: -6927259670506710092, guid: 88297d04c0e836f4287b363d258b22a8, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: You
+    text: I lately felt a disconnect too
+    sprite: {fileID: -6927259670506710092, guid: 88297d04c0e836f4287b363d258b22a8, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: You
+    text: I did recently considered going to the nearby forest and clean it up.
+    sprite: {fileID: -6927259670506710092, guid: 88297d04c0e836f4287b363d258b22a8, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: You
+    text: Maybe that would make me feel more of a connection
+    sprite: {fileID: -6927259670506710092, guid: 88297d04c0e836f4287b363d258b22a8, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Friend
+    text: Wow how noble of you, I am sure the animals would appreciate it.
+    sprite: {fileID: 0}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: You
+    text: Oh what the heck, I will go tomorrow and clean the forest up!
+    sprite: {fileID: -6927259670506710092, guid: 88297d04c0e836f4287b363d258b22a8, type: 3}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Friend
+    text: HECK YEAH
+    sprite: {fileID: 0}
+    typeSpeed: 6
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    initalClip: {fileID: 0}
+    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
+    voiceLine: {fileID: 0}
+    hasEvent: 0
+    OnDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+    EndDialogue:
+      m_PersistentCalls:
+        m_Calls: []

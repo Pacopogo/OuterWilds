@@ -10,31 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1b6127db89d2604e864a1f4135a9515, type: 3}
-  m_Name: Dialogue
+  m_Name: Frog_Goober
   m_EditorClassIdentifier: 
   dialogue:
-  - name: Duckster
-    text: YO OMG IS THAT STARSS
-    sprite: {fileID: 21300000, guid: b0737700558e44f4284c6b345b799766, type: 3}
-    typeSpeed: 8
+  - name: Gurbels
+    text: Goobers gotta goob
+    sprite: {fileID: 21300000, guid: 4c958abad21eb634e8326afe085b9511, type: 3}
+    typeSpeed: 7
     textColor: {r: 1, g: 1, b: 1, a: 1}
-    initalClip: {fileID: 0}
+    initalClip: {fileID: 8300000, guid: 8fee491c1d73c15409b20ee81753bfbe, type: 3}
     typeClip: {fileID: 8300000, guid: f0dc726de1f24b144becaf8a86203013, type: 3}
-    voiceLine: {fileID: 0}
-    hasEvent: 0
-    OnDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-    EndDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: Cat
-    text: I am not sure bear, must be new around here
-    sprite: {fileID: 21300000, guid: 6130794f786e65b4eb8d4e43a699db63, type: 3}
-    typeSpeed: 4
-    textColor: {r: 1, g: 1, b: 1, a: 1}
-    initalClip: {fileID: 0}
-    typeClip: {fileID: 8300000, guid: 0647acb5b6bed254283a801c4b647b6b, type: 3}
     voiceLine: {fileID: 0}
     hasEvent: 0
     OnDialogue:
